@@ -3,7 +3,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
 msgid "_lang"
-msgstr "community-es"
+msgstr "community-lat"
 
 # bot/queue_channel.py
 
@@ -41,16 +41,16 @@ msgid "{members} were removed from all queues ({reason})."
 msgstr "{members} fueron expulsados de todas las queues ({reason})."
 
 msgid "Success"
-msgstr "Conseguido"
+msgstr "Logrado"
 
 msgid "Error"
 msgstr "Error"
 
 msgid "You are not allowed to add to queues on this channel."
-msgstr "No tienes permiso para añadir queues en este canal."
+msgstr "No tienes permiso para agregar queues en este canal."
 
 msgid "You are not allowed to add to {queues} queues."
-msgstr "No tienes permiso para añadir {queues}."
+msgstr "No tienes permiso para agregar {queues}."
 
 msgid "You are already in an active match."
 msgstr "Ya estás en una partida activa."
@@ -62,10 +62,10 @@ msgid "Specified user not found."
 msgstr "El usuario especificado no se encuentra."
 
 msgid "Specified user is not in a match."
-msgstr "El usuario especificado no está en un partido."
+msgstr "El usuario no está en una partida."
 
 msgid "Specified user is in an active match."
-msgstr "El usuario especificado está en una partida."
+msgstr "El usuario está en una partida activa."
 
 msgid "Matches"
 msgstr "Partidas"
@@ -77,7 +77,7 @@ msgid "Rating"
 msgstr "Puntos"
 
 msgid "Winrate"
-msgstr "Porcentaje de victorias"
+msgstr "Porcentaje ganador"
 
 msgid "Last changes:"
 msgstr "Últimos cambios:"
@@ -86,7 +86,7 @@ msgid "No rating data found."
 msgstr "No se han encontrado datos de puntos."
 
 msgid "Could not find match with specified id. Check `{prefix}matches`."
-msgstr "No se ha podido encontrar una id específica. Comprueba `{prefix}matches`."
+msgstr "No se ha podido encontrar la partida con id específicado. Verifica `{prefix}matches`."
 
 msgid "You have {duration} expire time left."
 msgstr "Te queda {duration} antes de ser expulsado de la queue."
@@ -95,7 +95,7 @@ msgid "You don't have an expire timer set right now."
 msgstr "No tienes un contador de tiempo de expiración establecido en este momento."
 
 msgid "Invalid duration format. Syntax: 3h2m1s or 03:02:01."
-msgstr "Formato de tiempo inválido. Por favor siga esta sintaxis: 3h2m1s o 03:02:01."
+msgstr "Formato de tiempo inválido. Por favor siga este ejmplo: 3h2m1s o 03:02:01."
 
 msgid "Expire time must be less than {time}."
 msgstr "El tiempo de espera debe ser inferior a {time}."
@@ -104,7 +104,7 @@ msgid "Set your expire time to {duration}."
 msgstr "Configura el tiempo de expiración a {duration}."
 
 msgid "Invalid duration format. Syntax: 3h2m1s or 03:02:01 or AFK."
-msgstr "Formato de duración inválido. Siga esta sintaxis: 3h2m1s o 03:02:01 o AFK."
+msgstr "Formato de duración inválido. Siga este ejemplo: 3h2m1s o 03:02:01 o AFK."
 
 msgid "You will be removed from queues on AFK status by default."
 msgstr "Serás eliminado de las queues en estado AFK por defecto."
@@ -134,7 +134,7 @@ msgid "You're promoting too often, please wait `{delay}` until next promote."
 msgstr "Estás promoviendo con demasiada frecuencia, por favor espera `{delay}` antes de volver a promover."
 
 msgid "Done."
-msgstr "Hecho."
+msgstr "Listo."
 
 msgid "Your DM notifications is now turned off."
 msgstr "Tus notificaciones por MP están ahora desactivadas."
@@ -161,18 +161,18 @@ msgid "You have been banned, `{duration}` left."
 msgstr "Has sido baneado, te queda `{duration}`."
 
 msgid "Noadds are empty."
-msgstr "La lista de Noadds está vacía."
+msgstr "La lista de bloqueados está vacía."
 
 # bot/queues/pickup_queue.py
 
 msgid "{role} Please add to **{name}** pickup, `{left}` players left!"
-msgstr "{role} Únete a la pickup **{name}**, ¡nos faltan `{left}` jugadores!"
+msgstr "{role} Por favor únase a **{name}**, ¡nos faltan `{left}` jugadores!"
 
 msgid "Not enough players to start the queue."
 msgstr "No hay suficientes jugadores para empezar la queue."
 
 msgid "**{queue}** pickup has started @ {channel}!"
-msgstr "¡La pickup **{queue}** ha empezado en el canal @ {channel}!"
+msgstr "¡La selección **{queue}** ha empezado en el canal @ {channel}!"
 
 msgid "Server for **{queue}** is not set."
 msgstr "El servidor para **{queue}** no está configurado."
@@ -210,13 +210,13 @@ msgid "The match must be on the waiting report stage."
 msgstr "La partida debe estar en la fase de reporte de espera."
 
 msgid "You must be a team captain to report a loss or draw."
-msgstr "Debes ser capitán de un equipo para reportar una partida perdida o empate."
+msgstr "Debes ser capitán de equipo para informar partida perdida o empatada."
 
 msgid "{self} is calling a draw, waiting for {enemy} to type `{prefix}rd`."
-msgstr "{self} informa de un empate, esperando que {enemy} confirme con el comando `{prefix}rd`."
+msgstr "{self} esta informando un empate, esperando a {enemy} que escriba `{prefix}rd`."
 
 msgid "{self} offers to cancel the match, waiting for {enemy} to type `{prefix}rc`."
-msgstr "{self} pide cancelar la partida, a la espera de que {enemy} confirme con el comando `{prefix}rc`."
+msgstr "{self} pide cancelar la partida, esperando a {enemy} que escriba `{prefix}rc`."
 
 msgid "Specified team name not found."
 msgstr "No se ha encontrado el nombre del equipo especificado."
@@ -225,10 +225,10 @@ msgid "Match {queue} ({id}) has timed out."
 msgstr "La partida ({id}) para {queue} ha expirado."
 
 msgid "{players} your match has been canceled."
-msgstr "{players} vuestra partida ha sido cancelada."
+msgstr "{players} su partida ha sido cancelada."
 
 msgid "No changes to apply."
-msgstr "No hay cambios para aplicar."
+msgstr "Sin cambios que aplicar."
 
 msgid "Removed `{count}` roles from you."
 msgstr "Eliminado los roles `{count}` para ti."
@@ -242,7 +242,7 @@ msgid "__**{queue}** is now on the check-in stage!__"
 msgstr "__**{queue}** está ahora en la fase de verificación!__"
 
 msgid "Waiting on:"
-msgstr "Esperando:"
+msgstr "Esperando a:"
 
 msgid "Please react with {ready_emoji} to **check-in** or {not_ready_emoji} to **abort**!"
 msgstr "Por favor reacciona con {ready_emoji} para **confirmar** o {not_ready_emoji} para **abortar**!"
@@ -266,7 +266,7 @@ msgid "Pick players with `{prefix}pick @player` command."
 msgstr "Elige jugadores con el comando `{prefix}pick @jugador`."
 
 msgid "{member}'s turn to pick!"
-msgstr "Le toca a {member} elegir jugador!"
+msgstr "Es tu turno de {member} para elegir!"
 
 msgid "Type {cmd} to become a captain and start picking teams."
 msgstr "Escribe el comando {cmd} para convertirte en capitán y formar equipos."
@@ -292,13 +292,13 @@ msgstr "Servidor"
 # bot/match/draft.py
 
 msgid "The match is not on the draft stage."
-msgstr "La partida no está en la fase para formar los equipos ."
+msgstr "La partida no está en fase para formar equipos."
 
 msgid "You must possess the captain's role."
 msgstr "Debes poseer el rol de capitán."
 
 msgid "Team {name} already have a captain."
-msgstr "El equipo {name} ya tiene un capitán."
+msgstr "El equipo {name} ya tiene capitán."
 
 msgid "You are not a captain."
 msgstr "No eres un capitán."
@@ -307,7 +307,7 @@ msgid "Not your turn to pick."
 msgstr "No es tu turno para elegir."
 
 msgid "Specified player not in the unpicked list."
-msgstr "El jugador específico no está en la lista para elegir."
+msgstr "El jugador seleccionado no está en la lista para elegir."
 
 msgid "The match must be on the check-in, draft or waiting report stage."
 msgstr "La partida debe estar en la fase de verificación, formando los equipos o esperando un resultado."
@@ -316,10 +316,10 @@ msgid "You have stopped looking for a substitute."
 msgstr "Has dejado de buscar un sustituto."
 
 msgid "You are now looking for a substitute."
-msgstr "Estás ahora buscando un sustituto."
+msgstr "Estás buscando un sustituto."
 
 msgid "Specified player is not looking for a substitute."
-msgstr "El jugador específico no está buscando un sustituto."
+msgstr "El jugador seleccionado no está buscando un sustituto."
 
 # bot/match/check_in.py
 
@@ -330,7 +330,7 @@ msgid "{member} has aborted the check-in."
 msgstr "{member} ha abortado la verificación."
 
 msgid "Reverting {queue} to the gathering stage..."
-msgstr "Volviendo a {queue} a la fase de formación..."
+msgstr "Volviendo {queue} a la fase de formación..."
 
 msgid "{members} was not ready in time."
 msgstr "{members} no estaban listos a tiempo."
